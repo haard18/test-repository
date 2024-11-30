@@ -10,3 +10,7 @@ function another_example(x, y) return x + 2147483647 end -- Potential overflow i
 function no_return() local a = 5 local b = 10 local c = a + b end -- No return here
 function call_external() some_contract.some_method() end -- No checks on the call
 
+function another_example(x, y) return x + 2147483647 end -- Potential overflow in return statement
+function no_return() local a = 5 local b = 10 local c = a + b end -- No return here
+function call_external() some_contract.some_method() end -- No checks on the call
+

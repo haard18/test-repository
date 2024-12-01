@@ -28,6 +28,12 @@ TotalSupply = TotalSupply or utils.toBalanceValue(101000000 * 10 ^ Denomination)
 Name = "NEO"
 Ticker = 'NEO'
 Logo = '3rLkpIednEz1kU9h7YplYhEz2bcKvvjd6LBby52cIKo'
+-- Denomination = 10
+-- Balances = Balances or { [ao.id] = utils.toBalanceValue(101000000 * 10 ^ Denomination) }
+-- TotalSupply = TotalSupply or utils.toBalanceValue(101000000 * 10 ^ Denomination)
+-- Name = "NEO"
+-- Ticker = 'NEO'
+-- Logo = '3rLkpIednEz1kU9h7YplYhEz2bcKvvjd6LBby52cIKo'
 
 ------------------------------------------------------
 
